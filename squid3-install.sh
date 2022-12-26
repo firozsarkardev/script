@@ -29,7 +29,7 @@ if [[ -d /etc/squid/ || -d /etc/squid3/ ]]; then
     exit 1
 fi
 
-API_LINK='https://domain.com/api/authentication';
+API_LINK='http://proxy.hostingserverbd.xyz/api/authentication';
 API_KEY='FIRENET';
 
 cat <<EOF >/home/authentication.sh
